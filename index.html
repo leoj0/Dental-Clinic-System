@@ -5,18 +5,177 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="stylesheet" href="style/style.css">
+
     <!-- Latest compiled and minified CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <!-- Latest compiled JavaScript -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <script src="https://kit.fontawesome.com/3a4d23485c.js" crossorigin="anonymous"></script>
 
     <title>Home</title>
 </head>
 
-<body>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="70">
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md sticky-top py-3">
+        <div class="container">
+            <a href="#" class="navbar-brand">Logo</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="navbar-item">
+                        <a href="#home" class="nav-link">Home</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#home" class="nav-link">About</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#service" class="nav-link">Service</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#home" class="nav-link">Booking</a>
+                    </li>
+                    <li class="navbar-item">
+                        <a href="#" class="btn btn-primary">Log in</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- hero -->
+    <div class="hero">
+
+        <div class="container-fluid h-100 hero-title ">
+            <div class="col-lg-6 h-100 d-flex flex-column align-items-center justify-content-center text-center">
+                <h1>Best Care Close to Hand</h1>
+                <p>
+                    Our mission is to create healthy, beautiful smiles that inspire confidence and joy.
+                </p>
+                <a href="#" class="btn btn-primary">Make Appointment</a>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- Service -->
+    <section id="service">
+        <div class="container">
+            <h1 class="text-center">Our Services</h1>
+            <h6 class="text-center">See our special services for you at a glace</h6>
+            <div class="row g-4">
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-logo text-center">
+                            <i class="fa-solid fa-user-nurse"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Online Emergency</h5>
+                            <p class="card-text">orem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.
+                            </p>
+                            <a href="#">Make Appointment &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-logo text-center">
+                            <i class="fa-solid fa-truck-medical"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Medication Service</h5>
+                            <p class="card-text">orem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.
+                            </p>
+                            <a href="#">Make Appointment &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-logo text-center">
+                            <i class="fa-solid fa-clock"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">24 Health Program</h5>
+                            <p class="card-text">orem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.
+                            </p>
+                            <a href="#">Make Appointment &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-logo text-center">
+                            <i class="fa-solid fa-screwdriver"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Dental Implamants</h5>
+                            <p class="card-text">orem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.
+                            </p>
+                            <a href="#">Make Appointment &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-logo text-center">
+                            <i class="fa-solid fa-tooth"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Teeth Whitening</h5>
+                            <p class="card-text">orem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.
+                            </p>
+                            <a href="#">Make Appointment &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="card">
+                        <div class="card-logo text-center">
+                            <i class="fa-solid fa-link"></i>
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Tooth Braces</h5>
+                            <p class="card-text">orem Ipsum is simply dummy text of the printing and typesetting
+                                industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,
+                                when an unknown printer took a galley of type and scrambled it to make a type specimen
+                                book.
+                            </p>
+                            <a href="#">Make Appointment &rarr;</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
 
 
 </body>

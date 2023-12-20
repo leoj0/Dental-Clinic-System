@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+section {
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+
+section h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
+section h6 {
+    font-size: 20px;
+    color: gray;
+    margin-bottom: 64px;
+}
+
+nav {
+    background-color: white;
+}
+
+.hero {
+    height: 70vh;
+    background-image: url(../image/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    position: relative;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.hero-title {
+    position: relative;
+}
+
+.hero-title h1 {
+    color: black;
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+.hero-title p {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 64px;
+}
+
+.hero-title a {
+    font-weight: 500;
+    font-size: 24px;
+    padding: 15px 20px;
+}
+
+
+.card-logo {
+    margin: 16px auto;
+    font-size: 40px;
+    color: #07adeb;
+}
+
+
+.card-body a {
+    text-decoration: none;
+}
