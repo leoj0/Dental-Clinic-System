@@ -16,6 +16,7 @@ section h1 {
 
 section h6 {
     font-size: 1.25rem;
+    font-weight: 300;
     color: gray;
     margin-bottom: 4rem;
 }
@@ -95,28 +96,36 @@ nav {
     background-color: red;
 }
 
-.review i{
+.review i {
     color: #f9b462;
 }
 
-.review .card{
+.review .card {
     border: none;
     background-color: #f3f5f6;
 }
 
-.review .card-footer{
+.review .card-footer {
     background-color: transparent;
     border: none;
 }
 
-.review .round-image{
+.review .review-text {
+    color: #3a5352;
+}
+
+.review .round-image {
     width: 50px;
     height: 50px;
     background-color: red;
     border-radius: 30px;
 }
 
-.review .patient{
-    color: #828282;
+.review .name{
+    font-weight: 500;
 }
 
+.review .patient {
+    color: #828282;
+    font-weight: 300;
+}
