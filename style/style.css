@@ -94,3 +94,29 @@ nav {
     height: 300px;
     background-color: red;
 }
+
+.review i{
+    color: #f9b462;
+}
+
+.review .card{
+    border: none;
+    background-color: #f3f5f6;
+}
+
+.review .card-footer{
+    background-color: transparent;
+    border: none;
+}
+
+.review .round-image{
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    border-radius: 30px;
+}
+
+.review .patient{
+    color: #828282;
+}
+
